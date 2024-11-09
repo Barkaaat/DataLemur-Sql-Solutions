@@ -15,4 +15,4 @@ left join
   ) as t
 on m.measurement_id = t.measurement_id
 group by measurement_day
-order by measurement_day
+order by measurement_day;
