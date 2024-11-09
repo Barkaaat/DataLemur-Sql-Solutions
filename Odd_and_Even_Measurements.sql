@@ -1,3 +1,5 @@
+-- question link -- https://datalemur.com/questions/odd-even-measurements
+
 select
   cast(m.measurement_time as date) as measurement_day, 
   sum(case when t.rn%2 = 1 then m.measurement_value else 0 end) as odd_sum,
