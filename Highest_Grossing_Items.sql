@@ -1,4 +1,4 @@
--- question link --https://datalemur.com/questions/sql-highest-grossing
+-- question link -- https://datalemur.com/questions/sql-highest-grossing
 
 select category, product, total_spend
 from (
